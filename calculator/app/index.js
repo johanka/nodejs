@@ -5,7 +5,9 @@ const app = express()
 
 app.use(express.json())
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', function (req, res) {
+  res.send('POST to get a sum!')
+})
 
 app.post('/', function (req, res) {
   var augend = parseInt(req.body.augend)
