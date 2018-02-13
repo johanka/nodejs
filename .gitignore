@@ -4,3 +4,4 @@
 nodemon
 package-lock.json
 fil.dmg
+**/log
